@@ -1,0 +1,64 @@
+body{
+    background-color: yellow;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    /* background-color: yellow; */
+}
+.child{
+    background-color: lightblue;
+    font-size: larger;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.one{
+    grid-column: 1/13;
+}
+.two{
+    grid-column: 1/7;
+}
+.three{
+    grid-column: 7/13;
+}
+.four{
+    grid-column: 1/5;
+}
+.five{
+    grid-column: 5/9;
+}
+.six{
+    grid-column: 9/13;
+}
+.seven{
+    grid-column: 1/4;
+}
+.eight{
+    grid-column: 4/7;
+}
+.nine{
+    grid-column: 7/10;
+}
+.ten{
+    grid-column: 10/13;
+}
+.eleven{
+    grid-column: 1/3;
+}
+.twelve{
+    grid-column: 3/5;
+}
+.thirteen{
+    grid-column: 5/7;
+}
+.fourteen{
+    grid-column: 7/9;
+}
+.fiveteen{
+    grid-column: 9/11;
+}
+.sixteen{
+    grid-column: 11/13;
+}
